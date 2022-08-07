@@ -1,0 +1,91 @@
+body{
+
+  background-image: linear-gradient(120deg, black,red);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+
+
+#container{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   width: 400px;
+   height: 350px;
+   background-color: green;
+   border-color: green;
+   box-shadow: 5px 10px 5px 10px;
+   transition: 200ms;
+    
+
+}
+
+#btnInput{
+
+position: absolute;
+margin-top: 40px;
+background-color: transparent;
+border-radius: 3px solid black;
+color: black;
+transition: 200ms;
+
+}
+
+#btnInput:hover{
+
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+#inputNum{
+
+
+    width: 100px;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    margin-bottom: 50px;
+    text-align: center;
+}
+p{
+
+    margin-bottom: 280px;
+    
+
+}#container:hover{
+
+    transform: scale(1.1);
+
+}
+
+h2{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 130px;
+
+
+}
+
+h3{
+
+    position: absolute;
+    margin-top: 200px;
+
+
+}
