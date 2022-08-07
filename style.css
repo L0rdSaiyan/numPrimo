@@ -1,6 +1,6 @@
 body{
 
-  background-image: linear-gradient(120deg, black,red);
+  background-image: linear-gradient(120deg, black,rgb(234, 6, 6));
   height: 100vh;
   display: flex;
   align-items: center;
@@ -45,12 +45,6 @@ transition: 200ms;
 }
 
 
-
-
-
-
-
-
 #inputNum{
 
 
@@ -64,6 +58,7 @@ transition: 200ms;
 p{
 
     margin-bottom: 280px;
+    font-size: 20px;
     
 
 }#container:hover{
@@ -71,6 +66,18 @@ p{
     transform: scale(1.1);
 
 }
+
+h1{
+
+display: flex;
+justify-content: center;
+position: absolute;
+margin-bottom: 500px;
+margin-left: 500;
+
+
+}
+
 
 h2{
 
